@@ -1,0 +1,21 @@
+@font-face {
+  font-family:Lexend;
+  src: url('./assets/font/Lexend-Regular.ttf');
+}
+@font-face {
+  font-family:Made;
+  src: url('./assets/font/MADE.otf');
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+   font-family: Lexend, sans-serif;
+}

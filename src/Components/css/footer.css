@@ -1,0 +1,152 @@
+footer{
+    width: 100vw;
+    height: auto;
+    background-color: #216545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+
+.footer-container{
+   width: 100%;
+   margin: 0 80px;
+   /* border: 1px solid white; */
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+}
+
+.logo-footer{
+    width: 67px;
+    height: 48px;
+}
+.divider{
+    width: 100%;
+    border-top: 1px solid white;
+}
+
+.voice-footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column-foot{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.title-footer{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    text-transform: uppercase;
+    color: #D1F864;
+}
+
+.foot-voice{
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+.loghi-container{
+    max-width: 327px;
+    background-color: white;
+    height: fit-content;
+    border-radius: 16px;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.credits{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-enterprise{
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: white;
+}
+
+.p-iva{
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    color: white;
+}
+
+.devloper{
+    display: flex;
+    gap: 16px;
+}
+
+.devloper>span, a{
+    color: white;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px
+}
+
+
+@media screen and (max-width: 1080px) {
+    .voice-footer-container{
+        gap: 48px;
+    }
+    .credits{
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .enterprise-container{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    } 
+    
+    .devloper{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:640px) {
+    footer{
+        padding: 40px 0;
+    }
+    .footer-container{
+        margin: 0 40px;
+    }
+    .voice-footer-container{
+        gap: 48px;
+    }
+    .credits{
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .enterprise-container{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .devloper{
+        flex-direction: column;
+    }
+}
+

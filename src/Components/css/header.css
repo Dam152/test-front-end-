@@ -1,0 +1,90 @@
+
+.header{
+    width: 100vw;
+    height: 944px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-header{
+    max-width: 70%;
+    height: inherit;
+}
+
+.text-header-container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    left: 80px;
+}
+
+
+.title-header{
+
+    font-family: "Made";
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+}
+.gradient-title{
+    background: linear-gradient(95deg, #56D698 6.01%, #3C8D3A 68.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-header{
+    font-size: 1.12rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.62rem;
+}
+
+
+
+
+@media  screen and (max-width: 1024px) {
+    .title-header{
+        font-size: 5rem;
+    }
+    .text-header-container{
+        z-index: 1;
+    }
+    .text-header{
+        font-size: 1rem;
+    }
+   
+} 
+
+
+@media  screen and (max-width: 640px){
+
+    .header{
+        height: 600px;
+       
+        
+    }
+    .text-header-container{
+        left: 40px;
+        width: 50%;
+       
+    }
+    .title-header{
+        font-size: 2.5rem;
+        
+    }
+
+    .img-header{
+        
+        filter: blur(3px);
+        overflow-x: hidden;
+        
+    }
+
+
+}

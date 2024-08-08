@@ -1,0 +1,40 @@
+
+.card-container{
+    width: 360px;
+
+}
+
+.img-card{
+    border-radius: 16px;
+    width: inherit;
+}
+.title-card{
+font-family: "Made";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 10px 0;
+}
+
+.text-card{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 640px){
+   .card-container{
+        width: 300px;
+   }
+   /* .text-card{
+     font-size: 0.8rem;
+     line-height: 16px;
+   }
+   .title-card{
+     font-size: 1rem;
+     
+   } */
+}
+

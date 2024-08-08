@@ -1,0 +1,114 @@
+
+.planetario{
+    width: 100vw;
+    height: 560px;
+    display: flex;
+    background-color: #216545;
+    background-image: url('../../assets/img/Group.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+.column-plan-1,.column-plan-2{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    
+}
+
+.column-plan-1{
+    justify-content: end;
+    padding-right: 80px;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.planetario-img{
+    max-width: 100%;
+}
+
+.column-plan-2{
+    padding: 0 80px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-plan{
+    font-family: "Made";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+}
+
+.text-plan{
+    
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    margin-top: 10px;
+   
+}
+
+.button-plan{
+    width: 200px;
+    height: 48px;
+    border-radius: 40px;
+    background: #D1F864;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.button-plan:hover{
+    transform: scale(1.03);
+}
+
+.text-button-plan{
+    
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+@media screen and (max-width:1024px){
+    .planetario{
+        flex-direction: column;
+        height: auto;
+        padding: 80px 0;
+        
+    }
+    .column-plan-2{
+        width: auto;
+        padding: 0;
+        padding: 0 80px;
+       
+    }
+    .column-plan-1{
+        width: auto;
+        padding: 0;
+        justify-content: start;
+        padding: 0 80px;
+        margin-bottom: 80px;
+
+    }
+   
+}
+
+@media screen and (max-width:640px){
+    
+    .column-plan-1,.column-plan-2{
+        padding: 0 40px;
+    }
+
+    .column-plan-1{
+        margin-bottom: 40px;
+    }
+}

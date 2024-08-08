@@ -1,0 +1,48 @@
+
+.carousel-item{
+    
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.img-carousel-item{
+    width: 244px;
+    height: 169px;
+    border-radius: 16px;
+}
+
+.title-card-carousel{
+    font-family: Lexend;
+    font-size: 1.12rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.button-card-carousel{
+    width: 176px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D1F864;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.button-card-carousel:hover{
+    transform: scale(1.03);
+}
+
+.text-card-carousel{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 8px;
+}
